@@ -2,11 +2,11 @@
 Scientific Question:
 Which is the better model species, Mus musculus (house mouse) or Pan troglodytes (chimpanzee), for testing asthma caused by the interleukin-13 gene in humans?
 
-To run the adequately run the code you need to download 3 files:
+To run the adequately run the code you need to download 3 files and rename them:
 
-1) IL13_Human (1).fasta
-2) IL13_Mouse (1).fasta
-3) IL13_Chimpanzee (1).fasta
+1) IL13_Human (1).fasta                 rename to IL13_Human.fasta
+2) IL13_Mouse (1).fasta                 rename to IL13_Mouse.fasta
+3) IL13_Chimpanzee (1).fasta            rename to IL13_Chimpanzee.fasta
 
 Information about where FASTA files were found:
   The data on the IL-13 gene can be obtained from the UniProt database (https://www.uniprot.org/).  The gene sequence for the IL-13 protein is taken from https://www.uniprot.org/uniprot/P35225 (humans), https://www.uniprot.org/uniprot/P20109 (mouse), https://www.uniprot.org/uniprot/P61126(chimpanzees). The UniProt database already has the gene in FASTA format. Simply search the gene of interest and within the page, use ctrl+F and type in FASTA to find the download link. Click on it and copy all the information in the pop-up window. Then go to Jupyter notebook, open a new text file and paste in the information from the FASTA link, label the file as IL13_Human(Chimpanzee or Mouse).fasta.
